@@ -12,9 +12,9 @@ int main()
 
 	int length, width;
 
-	cout << "Ââåäèòå äëèííó ïðÿìîóãîëüíèêà" << endl;
+	cout << "Введите длинну прямоугольника" << endl;
 	cin >> length;
-	cout << "Ââåäèòå øèðèíó ïðÿìîóãîëüíèêà" << endl;
+	cout << "Введите ширину прямоугольника" << endl;
 	cin >> width;
 
 	for (int i = 0; i < length; i++)
