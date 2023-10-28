@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-/* Напишите программу, которая выводит на экран число от 0 до 9 прописью.
-Ввод :: 1
-Результат :: "Один".
-Попробуйте использовать цикл switch, если ваш язык поддерживает этот цикл. */
+/* РќР°РїРёС€РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ, РєРѕС‚РѕСЂР°СЏ РІС‹РІРѕРґРёС‚ РЅР° СЌРєСЂР°РЅ С‡РёСЃР»Рѕ РѕС‚ 0 РґРѕ 9 РїСЂРѕРїРёСЃСЊСЋ.
+Р’РІРѕРґ :: 1
+Р РµР·СѓР»СЊС‚Р°С‚ :: "РћРґРёРЅ".
+РџРѕРїСЂРѕР±СѓР№С‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ С†РёРєР» switch, РµСЃР»Рё РІР°С€ СЏР·С‹Рє РїРѕРґРґРµСЂР¶РёРІР°РµС‚ СЌС‚РѕС‚ С†РёРєР». */
 /* Write a program that displays a number from 0 to 9 in words.
 Input :: 1
 Result :: "One".
@@ -14,44 +14,44 @@ int main()
 {
 	setlocale(LC_ALL, "ru");
 	int a;
-	cout << "Введите число" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ" << endl;
 	cin >> a;
 
 	switch (a)
 	{
 	case 0:
-		cout << "Ноль" << endl;
+		cout << "РќРѕР»СЊ" << endl;
 		break;
 	case 1:
-		cout << "Один" << endl;
+		cout << "РћРґРёРЅ" << endl;
 		break;
 	case 2:
-		cout << "Два" << endl;
+		cout << "Р”РІР°" << endl;
 		break;
 	case 3:
-		cout << "Три" << endl;
+		cout << "РўСЂРё" << endl;
 		break;
 	case 4:
-		cout << "Четыре" << endl;
+		cout << "Р§РµС‚С‹СЂРµ" << endl;
 		break;
 	case 5:
-		cout << "Пять" << endl;
+		cout << "РџСЏС‚СЊ" << endl;
 		break;
 	case 6:
-		cout << "Шесть" << endl;
+		cout << "РЁРµСЃС‚СЊ" << endl;
 		break;
 	case 7:
-		cout << "Семь" << endl;
+		cout << "РЎРµРјСЊ" << endl;
 		break;
 	case 8:
-		cout << "Восемь" << endl;
+		cout << "Р’РѕСЃРµРјСЊ" << endl;
 		break;
 	case 9:
-		cout << "Девять" << endl;
+		cout << "Р”РµРІСЏС‚СЊ" << endl;
 		break;
 
 	default:
-		cout << "Ошибка";
+		cout << "РћС€РёР±РєР°";
 	}
 	return 0;
 }
